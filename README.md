@@ -4,7 +4,7 @@
 
 Файлы:
 - `TapeRecorder.h`, `TapeRecorder.cpp` — класс магнитофона;
-- `main.cpp` — консольное меню для управления объектом;
+- `main.cpp` — массив из трёх магнитофонов и консольное меню для управления ими;
 - `tests.cpp` — тесты переходов между состояниями;
 - `demo.mp4` — запись работы программы.
 
@@ -44,13 +44,20 @@ g++ tests.cpp TapeRecorder.cpp -o tests.exe
 
 Видео: [demo.mp4](demo.mp4)
 
+### Создание объектов конструкторами и массива объектов
 ![](screenshots/1.png)
+
+### Редактирование и просмотр свойств каждого объекта
 ![](screenshots/2.png)
 ![](screenshots/3.png)
 ![](screenshots/4.png)
 ![](screenshots/5.png)
 ![](screenshots/6.png)
 
+### Обработка массива объектов
+![](screenshots/7.png)
+![](screenshots/8.png)
+
 ## Тесты
 
-![](screenshots/7.png)
+![](screenshots/9.png)
